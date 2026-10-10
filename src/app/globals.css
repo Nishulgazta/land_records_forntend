@@ -1,0 +1,119 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans:
+    var(--font-geist-sans), ui-sans-serif, system-ui, -apple-system, "Segoe UI",
+    sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, SFMono-Regular, monospace;
+
+  /* Surfaces */
+  --color-canvas: #f4f6f5;
+  --color-surface: #ffffff;
+  --color-surface-2: #f8faf9;
+  --color-surface-3: #eef2f0;
+
+  /* Lines */
+  --color-line: #e9edeb;
+  --color-line-strong: #d3dbd7;
+
+  /* Ink */
+  --color-ink: #0d1512;
+  --color-ink-2: #475349;
+  --color-ink-3: #79857d;
+
+  /* Brand — deep forest / emerald */
+  --color-brand-50: #f2faf5;
+  --color-brand-100: #e0f5ea;
+  --color-brand-200: #c2ebd6;
+  --color-brand-300: #96dab7;
+  --color-brand-400: #5cc292;
+  --color-brand-500: #2fa873;
+  --color-brand-600: #178a5b;
+  --color-brand-700: #0f6f4a;
+  --color-brand-800: #0d583d;
+  --color-brand-900: #0b4733;
+  --color-brand-950: #05281d;
+
+  /* Status */
+  --color-success: #15803d;
+  --color-success-soft: #eefaf1;
+  --color-success-line: #bbe8c9;
+  --color-warning: #b45309;
+  --color-warning-soft: #fdf6e7;
+  --color-warning-line: #f3ddb2;
+  --color-danger: #b91c1c;
+  --color-danger-soft: #fdf1f1;
+  --color-danger-line: #f3c6c6;
+  --color-info: #1d4ed8;
+  --color-info-soft: #eef3fe;
+  --color-info-line: #c9d7fb;
+  --color-neutral-soft: #f1f5f3;
+  --color-neutral-line: #dde5e1;
+
+  --radius-card: 0.625rem;
+}
+
+@layer base {
+  *,
+  ::before,
+  ::after {
+    border-color: var(--color-line);
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background-color: var(--color-canvas);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    font-feature-settings: "cv02", "cv03", "cv04";
+  }
+
+  ::selection {
+    background-color: var(--color-brand-100);
+    color: var(--color-brand-900);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-brand-600);
+    outline-offset: 2px;
+  }
+}
+
+@layer utilities {
+  .card {
+    background-color: var(--color-surface);
+    border: 1px solid var(--color-line);
+    border-radius: var(--radius-card);
+  }
+
+  .scrollbar-thin {
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-line-strong) transparent;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    background-color: var(--color-line-strong);
+    border-radius: 9999px;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  /* Table density, controlled by [data-density] on <body> */
+  [data-density="compact"] .row-py {
+    padding-block: 0.375rem;
+  }
+
+  [data-density="comfortable"] .row-py {
+    padding-block: 0.625rem;
+  }
+}
