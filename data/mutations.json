@@ -1,0 +1,506 @@
+[
+  {
+    "id": "44c151c9-51ab-4f3f-b56e-e3dd6f61f716",
+    "status": "draft",
+    "fields": {
+      "entryNo": {
+        "value": "",
+        "source": "manual"
+      },
+      "village": {
+        "value": "",
+        "source": "manual"
+      },
+      "tehsil": {
+        "value": "",
+        "source": "manual"
+      },
+      "district": {
+        "value": "",
+        "source": "manual"
+      },
+      "dateOfEntry": {
+        "value": "",
+        "source": "manual"
+      },
+      "previousHolder": {
+        "value": "",
+        "source": "manual"
+      },
+      "newHolder": {
+        "value": "",
+        "source": "manual"
+      },
+      "khasraNo": {
+        "value": "",
+        "source": "manual"
+      },
+      "khataNo": {
+        "value": "",
+        "source": "manual"
+      },
+      "landArea": {
+        "value": "",
+        "source": "manual"
+      },
+      "landUnit": {
+        "value": "",
+        "source": "manual"
+      },
+      "mutationReason": {
+        "value": "",
+        "source": "manual"
+      },
+      "documentRef": {
+        "value": "",
+        "source": "manual"
+      },
+      "remarks": {
+        "value": "",
+        "source": "manual"
+      }
+    },
+    "pages": [],
+    "recognition": null,
+    "findings": {
+      "errors": [
+        {
+          "field": "entryNo",
+          "message": "Entry Number is missing.",
+          "type": "error"
+        },
+        {
+          "field": "village",
+          "message": "Village is missing.",
+          "type": "error"
+        },
+        {
+          "field": "tehsil",
+          "message": "Tehsil is missing.",
+          "type": "error"
+        },
+        {
+          "field": "district",
+          "message": "District is missing.",
+          "type": "error"
+        },
+        {
+          "field": "dateOfEntry",
+          "message": "Date of Entry is missing.",
+          "type": "error"
+        },
+        {
+          "field": "previousHolder",
+          "message": "Previous Holder is missing.",
+          "type": "error"
+        },
+        {
+          "field": "newHolder",
+          "message": "New Holder / Claimant is missing.",
+          "type": "error"
+        },
+        {
+          "field": "khasraNo",
+          "message": "Khasra / Plot No. is missing.",
+          "type": "error"
+        },
+        {
+          "field": "landArea",
+          "message": "Land Area is missing.",
+          "type": "error"
+        },
+        {
+          "field": "landUnit",
+          "message": "Land Unit is missing.",
+          "type": "error"
+        },
+        {
+          "field": "mutationReason",
+          "message": "Mutation Reason is missing.",
+          "type": "error"
+        }
+      ],
+      "warnings": []
+    },
+    "createdAt": "2026-10-14T06:34:21.000Z",
+    "updatedAt": "2026-10-14T06:34:21.000Z"
+  },
+  {
+    "id": "28d6896d-c4b9-4363-9bd8-d0d38d28d678",
+    "status": "draft",
+    "fields": {
+      "entryNo": {
+        "value": "",
+        "source": "manual"
+      },
+      "village": {
+        "value": "",
+        "source": "manual"
+      },
+      "tehsil": {
+        "value": "",
+        "source": "manual"
+      },
+      "district": {
+        "value": "",
+        "source": "manual"
+      },
+      "dateOfEntry": {
+        "value": "",
+        "source": "manual"
+      },
+      "previousHolder": {
+        "value": "",
+        "source": "manual"
+      },
+      "newHolder": {
+        "value": "",
+        "source": "manual"
+      },
+      "khasraNo": {
+        "value": "",
+        "source": "manual"
+      },
+      "khataNo": {
+        "value": "",
+        "source": "manual"
+      },
+      "landArea": {
+        "value": "",
+        "source": "manual"
+      },
+      "landUnit": {
+        "value": "",
+        "source": "manual"
+      },
+      "mutationReason": {
+        "value": "",
+        "source": "manual"
+      },
+      "documentRef": {
+        "value": "",
+        "source": "manual"
+      },
+      "remarks": {
+        "value": "",
+        "source": "manual"
+      }
+    },
+    "pages": [],
+    "recognition": null,
+    "findings": {
+      "errors": [
+        {
+          "field": "entryNo",
+          "message": "Entry Number is missing.",
+          "type": "error"
+        },
+        {
+          "field": "village",
+          "message": "Village is missing.",
+          "type": "error"
+        },
+        {
+          "field": "tehsil",
+          "message": "Tehsil is missing.",
+          "type": "error"
+        },
+        {
+          "field": "district",
+          "message": "District is missing.",
+          "type": "error"
+        },
+        {
+          "field": "dateOfEntry",
+          "message": "Date of Entry is missing.",
+          "type": "error"
+        },
+        {
+          "field": "previousHolder",
+          "message": "Previous Holder is missing.",
+          "type": "error"
+        },
+        {
+          "field": "newHolder",
+          "message": "New Holder / Claimant is missing.",
+          "type": "error"
+        },
+        {
+          "field": "khasraNo",
+          "message": "Khasra / Plot No. is missing.",
+          "type": "error"
+        },
+        {
+          "field": "landArea",
+          "message": "Land Area is missing.",
+          "type": "error"
+        },
+        {
+          "field": "landUnit",
+          "message": "Land Unit is missing.",
+          "type": "error"
+        },
+        {
+          "field": "mutationReason",
+          "message": "Mutation Reason is missing.",
+          "type": "error"
+        }
+      ],
+      "warnings": []
+    },
+    "createdAt": "2026-10-14T07:24:51.456Z",
+    "updatedAt": "2026-10-14T07:24:51.456Z"
+  },
+  {
+    "id": "c27f9156-e80c-4a98-b6ef-ac5b2902d984",
+    "status": "draft",
+    "fields": {
+      "entryNo": {
+        "value": "",
+        "source": "manual"
+      },
+      "village": {
+        "value": "",
+        "source": "manual"
+      },
+      "tehsil": {
+        "value": "",
+        "source": "manual"
+      },
+      "district": {
+        "value": "",
+        "source": "manual"
+      },
+      "dateOfEntry": {
+        "value": "",
+        "source": "manual"
+      },
+      "previousHolder": {
+        "value": "",
+        "source": "manual"
+      },
+      "newHolder": {
+        "value": "",
+        "source": "manual"
+      },
+      "khasraNo": {
+        "value": "",
+        "source": "manual"
+      },
+      "khataNo": {
+        "value": "",
+        "source": "manual"
+      },
+      "landArea": {
+        "value": "",
+        "source": "manual"
+      },
+      "landUnit": {
+        "value": "",
+        "source": "manual"
+      },
+      "mutationReason": {
+        "value": "",
+        "source": "manual"
+      },
+      "documentRef": {
+        "value": "",
+        "source": "manual"
+      },
+      "remarks": {
+        "value": "",
+        "source": "manual"
+      }
+    },
+    "pages": [],
+    "recognition": null,
+    "findings": {
+      "errors": [
+        {
+          "field": "entryNo",
+          "message": "Entry Number is missing.",
+          "type": "error"
+        },
+        {
+          "field": "village",
+          "message": "Village is missing.",
+          "type": "error"
+        },
+        {
+          "field": "tehsil",
+          "message": "Tehsil is missing.",
+          "type": "error"
+        },
+        {
+          "field": "district",
+          "message": "District is missing.",
+          "type": "error"
+        },
+        {
+          "field": "dateOfEntry",
+          "message": "Date of Entry is missing.",
+          "type": "error"
+        },
+        {
+          "field": "previousHolder",
+          "message": "Previous Holder is missing.",
+          "type": "error"
+        },
+        {
+          "field": "newHolder",
+          "message": "New Holder / Claimant is missing.",
+          "type": "error"
+        },
+        {
+          "field": "khasraNo",
+          "message": "Khasra / Plot No. is missing.",
+          "type": "error"
+        },
+        {
+          "field": "landArea",
+          "message": "Land Area is missing.",
+          "type": "error"
+        },
+        {
+          "field": "landUnit",
+          "message": "Land Unit is missing.",
+          "type": "error"
+        },
+        {
+          "field": "mutationReason",
+          "message": "Mutation Reason is missing.",
+          "type": "error"
+        }
+      ],
+      "warnings": []
+    },
+    "createdAt": "2026-10-14T11:32:47.647Z",
+    "updatedAt": "2026-10-14T11:32:47.647Z"
+  },
+  {
+    "id": "aadf8e64-edd7-4613-91da-60b428efbd05",
+    "status": "draft",
+    "fields": {
+      "entryNo": {
+        "value": "",
+        "source": "manual"
+      },
+      "village": {
+        "value": "",
+        "source": "manual"
+      },
+      "tehsil": {
+        "value": "",
+        "source": "manual"
+      },
+      "district": {
+        "value": "",
+        "source": "manual"
+      },
+      "dateOfEntry": {
+        "value": "",
+        "source": "manual"
+      },
+      "previousHolder": {
+        "value": "",
+        "source": "manual"
+      },
+      "newHolder": {
+        "value": "",
+        "source": "manual"
+      },
+      "khasraNo": {
+        "value": "",
+        "source": "manual"
+      },
+      "khataNo": {
+        "value": "",
+        "source": "manual"
+      },
+      "landArea": {
+        "value": "",
+        "source": "manual"
+      },
+      "landUnit": {
+        "value": "",
+        "source": "manual"
+      },
+      "mutationReason": {
+        "value": "",
+        "source": "manual"
+      },
+      "documentRef": {
+        "value": "",
+        "source": "manual"
+      },
+      "remarks": {
+        "value": "",
+        "source": "manual"
+      }
+    },
+    "pages": [],
+    "recognition": null,
+    "findings": {
+      "errors": [
+        {
+          "field": "entryNo",
+          "message": "Entry Number is missing.",
+          "type": "error"
+        },
+        {
+          "field": "village",
+          "message": "Village is missing.",
+          "type": "error"
+        },
+        {
+          "field": "tehsil",
+          "message": "Tehsil is missing.",
+          "type": "error"
+        },
+        {
+          "field": "district",
+          "message": "District is missing.",
+          "type": "error"
+        },
+        {
+          "field": "dateOfEntry",
+          "message": "Date of Entry is missing.",
+          "type": "error"
+        },
+        {
+          "field": "previousHolder",
+          "message": "Previous Holder is missing.",
+          "type": "error"
+        },
+        {
+          "field": "newHolder",
+          "message": "New Holder / Claimant is missing.",
+          "type": "error"
+        },
+        {
+          "field": "khasraNo",
+          "message": "Khasra / Plot No. is missing.",
+          "type": "error"
+        },
+        {
+          "field": "landArea",
+          "message": "Land Area is missing.",
+          "type": "error"
+        },
+        {
+          "field": "landUnit",
+          "message": "Land Unit is missing.",
+          "type": "error"
+        },
+        {
+          "field": "mutationReason",
+          "message": "Mutation Reason is missing.",
+          "type": "error"
+        }
+      ],
+      "warnings": []
+    },
+    "createdAt": "2026-10-14T11:48:09.610Z",
+    "updatedAt": "2026-10-14T11:48:09.610Z"
+  }
+]
