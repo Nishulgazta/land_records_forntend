@@ -6,6 +6,7 @@ import {
   History,
   LayoutDashboard,
   Map,
+  NotebookPen,
   Package,
   ScrollText,
   Settings,
@@ -37,6 +38,11 @@ export const NAV_SECTIONS: NavSection[] = [
       { label: "Land Records", href: "/records", icon: ScrollText },
       { label: "Validation", href: "/validation", icon: ShieldCheck },
       { label: "Verification", href: "/verification", icon: UserCheck },
+      {
+        label: "Mutation Notebook",
+        href: "/mutation-notebook",
+        icon: NotebookPen,
+      },
     ],
   },
   {
